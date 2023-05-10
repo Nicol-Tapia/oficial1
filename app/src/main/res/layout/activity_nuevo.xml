@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/light_blue"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/TituloListaProductos"
+            android:layout_width="408dp"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:backgroundTint="#5E35B1"
+            android:fontFamily="@font/arima_madurai_light"
+            android:gravity="center"
+            android:text="@string/lista_de_productos"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textDirection="locale"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/andika"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#838383"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/andika"
+        android:hint="@string/cantidad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#838383"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/andika"
+        android:hint="@string/precio"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#838383"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/andika"
+        android:hint="@string/lugar_de_compra"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#838383"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/andika"
+        android:hint="@string/categoria"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#838383"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="162dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="142dp"
+        android:text="@string/guardar" />
+
+
+</LinearLayout>
